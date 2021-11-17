@@ -2,7 +2,7 @@ name: hallo
 description: yes yes
 labels: [bug]
 body:
-  type: input
+  - type: input
     attributes:
       label: Expected ship date
       description: Use specific date format YYYY-MM-DD, and please avoid non-specific dates such as "FYQ4" or "June". Pick a best-guess release date and revise as needed. If shipping different phases (Alpha, Beta, GA) create separate release issues and link them through comments/descriptions.
