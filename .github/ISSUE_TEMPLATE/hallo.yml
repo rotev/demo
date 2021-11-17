@@ -4,7 +4,7 @@ labels: [bug]
 body:
   - type: input
     attributes:
-      label: Expected ship date
+      label: Expected ship <span id='ship_date3'>YYYY-MM-DD</span> date
       description: Use specific <span id='ship_date2'>YYYY-MM-DD</span> date format YYYY-MM-DD, and please avoid non-specific dates such as "FYQ4" or "June". Pick a best-guess release date and revise as needed. If shipping different phases (Alpha, Beta, GA) create separate release issues and link them through comments/descriptions.
       value: |-
         <span id='ship_date'>YYYY-MM-DD</span>
